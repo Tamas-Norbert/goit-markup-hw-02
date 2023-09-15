@@ -1,12 +1,32 @@
 ul {
   list-style-type: none;
 }
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+.current {
+  color: var(--active-link);
+}
+.main-navigation-studio:active,
+.main-navigation-studio:hover,
+.main-navigation-studio:focus,
+.main-navigation-studio:visited:active,
+.main-navigation-studio:visited:hover,
+.main-navigation-studio:visited:focus {
+  color: var(--active-link);
+}
+.main-navigation-studio:visited {
+  color: var(--inactive-link1);
+}
+
 .body-background-portofolio {
   width: 1600px;
   height: 1879px;
-  top: -3267px;
-  left: -2206px;
-  color: #FFFFFF;
+  color: #ffffff;
+  font-family: Roboto;
 }
 .body-background-studio {
   width: 1600px;
@@ -14,6 +34,7 @@ ul {
   top: -3267px;
   left: -3897px;
   color: #ffffff;
+  font-family: Roboto;
 }
 .main-section {
   background-color: #2f303a;
@@ -21,33 +42,42 @@ ul {
   height: 600px;
   top: 80px;
 }
-
+.nav-background {
+  width: 1600px;
+  height: 80px;
+  border: 1px;
+  border: 1px solid #ececec;
+}
+.main-navigation {
+  width: 259px;
+  height: 16px;
+  top: 32px;
+  left: 453px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #212121;
+}
 .nav-container span {
   width: 145px;
   height: 31px;
   top: 24px;
   left: 215px;
-
-  font-family: Raleway;
+  font: Raleway;
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 31px;
   letter-spacing: 0.03em;
   text-align: left;
-
-  font-family: Oleo Script;
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 36px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #212121;
 }
 
 h1 {
   font-family: Roboto;
   font-size: 44px;
-  font-weight: 900;
+  font-weight: 900px;
   line-height: 60px;
   letter-spacing: 0.06em;
   text-align: center;
@@ -69,12 +99,15 @@ h1 {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: unset;
+  cursor: pointer;
 }
-
+.request-service:hover {
+  color: mediumvioletred;
+}
 h2 {
   font-family: Roboto;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 42px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -87,7 +120,7 @@ h3 {
   top: 774px;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -100,7 +133,6 @@ h3 {
   top: 800px;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -113,11 +145,10 @@ h3 {
   left: 215px;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 400;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #757575;
+  color: #212121;
 }
 
 .our-team h3 {
@@ -125,7 +156,7 @@ h3 {
   height: 19px;
   font-family: Roboto;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 500px;
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -134,26 +165,55 @@ h3 {
 .our-team p {
   font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
   text-align: center;
+  color: #757575;
 }
 
-.basement {
-  background: #2f303a;
-  width: 1600px;
-  height: 251px;
-  top: 2097px;
+.basement-address {
+  width: 231px;
+  height: 72px;
+  top: 2216px;
+  left: 215px;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #ffffff99;
+  color: #ffffff;
 }
+.basement span {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 145px;
+  height: 31px;
+  top: 1688px;
+  left: 215px;
+}
+.basement p {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 207px;
+  height: 16px;
+  top: 1747px;
+  left: 215px;
+  color: #ffffff;
+}
+.basement-background {
+    background-color: #2f303a;
+    width: 1600px;
+    height: 251px;
+    top: 2097px;
+  }
 
 .colection-background h3 {
   width: 322px;
@@ -162,7 +222,7 @@ h3 {
   left: 1039px;
   font-family: Roboto;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
@@ -176,7 +236,6 @@ h3 {
   left: 639px;
   font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -188,4 +247,11 @@ h3 {
   height: 38px;
   top: 174px;
   border-radius: 0;
+  font-family: inherit;
+  cursor: pointer;
 }
+.buttons-filters:focus {
+  background: lightskyblue;
+  color: white;
+}
+
