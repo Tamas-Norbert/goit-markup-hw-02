@@ -70,17 +70,18 @@ a:focus {
   border: 1px solid #ececec;
 }
 .main-navigation {
-  width: 259px;
-  height: 16px;
-  top: 32px;
-  left: 453px;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 500px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #212121;
+    width: 42px
+    height: 16px
+    top: 32px
+    left: 453px
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+color: #212121;
+    
 }
 .nav-container span {
   width: 145px;
@@ -170,6 +171,7 @@ h3 {
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
+  color: #757575;
 }
 
 .our-team h3 {
@@ -319,7 +321,7 @@ h3 {
   height: 26px;
   top: 180px;
   border-radius: 0;
-  font-family: Roboto;
+  font-family: inherit;
   cursor: pointer;
 }
 .buttons-filters:focus {
