@@ -2,9 +2,30 @@ ul {
   list-style-type: none;
 }
 
+body {
+  font-family: Roboto, Arial, sans-serif;
+  color: #000;
+  line-height: 1.5;
+}
+
 a {
-    color: #0060B6;
-    text-decoration: none;
+  color: #0060b6;
+  text-decoration: none;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--highlight-color);
+  color: #fff;
+}
+a:hover,
+a:focus {
+  color: var(--highlight-color);
+}
+:root {
+  --text-color: #000;
+  --background-color: #fff;
+  --highlight-color: #2196f3;
 }
 
 .current {
@@ -64,11 +85,11 @@ a {
 .nav-container span {
   width: 145px;
   height: 31px;
-  top: 24px;
+  top: 124px;
   left: 215px;
-  font: Raleway;
+  font-family: Raleway;
   font-size: 26px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -96,13 +117,13 @@ h1 {
   line-height: 30px;
   letter-spacing: 0.96px;
   border-radius: 4px;
-  background-color: #2196f3;
+  background-color: #188ce8;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: unset;
   cursor: pointer;
 }
 .request-service:hover {
-  color: mediumvioletred;
+  color: #ffffff;
 }
 h2 {
   font-family: Roboto;
@@ -148,18 +169,18 @@ h3 {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #212121;
+  text-decoration: none;
 }
 
 .our-team h3 {
-  /* TODO: ask for width(each one of them is diffrent) */
   height: 19px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  text-align: center;
+  display: flex;
+  align-items: center;
   color: #212121;
 }
 .our-team p {
@@ -168,12 +189,39 @@ h3 {
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
+  display: flex;
   color: #757575;
 }
 
 .basement-address {
   width: 231px;
   height: 72px;
+  top: 2216px;
+  left: 215px;
+}
+.basement-address {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 145px;
+  height: 31px;
+  top: 1688px;
+  left: 215px;
+  text-decoration: none;
+}
+.basement-background {
+  width: 1600px;
+  height: 251px;
+  top: 2097px;
+
+  background-color: #2f303a;
+}
+.basement-address p {
+  width: 207px;
+  height: 16px;
   top: 2216px;
   left: 215px;
   font-family: Roboto;
@@ -184,36 +232,57 @@ h3 {
   text-align: left;
   color: #ffffff;
 }
-.basement span {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700px;
-  line-height: 31px;
+.basement-address a:first-child {
+  width: 231px;
+  height: 16px;
+  top: 2244px;
+  left: 215px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
+  color: #ffffff99;
+  text-decoration: none;
+}
+
+.basement-address a:last-child {
+  width: 231px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff99;
+  text-decoration: none;
+}
+
+.basement-background {
+  background-color: #2f303a;
+}
+
+.basement-address {
+  width: 231px;
+  height: 72px;
+  top: 2216px;
+  left: 215px;
+}
+
+.basement-background span {
   width: 145px;
   height: 31px;
   top: 1688px;
   left: 215px;
-}
-.basement p {
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 16px;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
   letter-spacing: 0.03em;
   text-align: left;
-  width: 207px;
-  height: 16px;
-  top: 1747px;
-  left: 215px;
-  color: #ffffff;
 }
-.basement-background {
-    background-color: #2f303a;
-    width: 1600px;
-    height: 251px;
-    top: 2097px;
-  }
 
 .colection-background h3 {
   width: 322px;
@@ -243,11 +312,14 @@ h3 {
 }
 
 .buttons-filters {
-  width: 516px;
-  height: 38px;
-  top: 174px;
+  width: 52px;
+  font-weight: 500px;
+  size: 16px;
+  line-height: 26px;
+  height: 26px;
+  top: 180px;
   border-radius: 0;
-  font-family: inherit;
+  font-family: Roboto;
   cursor: pointer;
 }
 .buttons-filters:focus {
@@ -255,3 +327,6 @@ h3 {
   color: white;
 }
 
+.buttons-filters li button {
+  border: none;
+}
