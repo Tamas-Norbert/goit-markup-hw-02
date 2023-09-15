@@ -63,38 +63,6 @@ a:focus {
   height: 600px;
   top: 80px;
 }
-.nav-background {
-  width: 1600px;
-  height: 80px;
-  border: 1px;
-  border: 1px solid #ececec;
-}
-.main-navigation {
-    width: 42px
-    height: 16px
-    top: 32px
-    left: 453px
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-align: left;
-color: #212121;
-    
-}
-.nav-container span {
-  width: 145px;
-  height: 31px;
-  top: 124px;
-  left: 215px;
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
 
 h1 {
   font-family: Roboto;
@@ -175,19 +143,27 @@ h3 {
 }
 
 .our-team h3 {
+  width: 145px;
   height: 19px;
+  top: 1925px;
+  left: 278px;
   font-family: Roboto;
   font-size: 16px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
   display: flex;
-  align-items: center;
   color: #212121;
 }
 .our-team p {
+  width: 147px;
+  height: 19px;
+  top: 1954px;
+  left: 577px;
   font-family: Roboto;
   font-size: 16px;
+  font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -195,40 +171,19 @@ h3 {
   color: #757575;
 }
 
-.basement-address {
-  width: 231px;
-  height: 72px;
-  top: 2216px;
-  left: 215px;
-}
-.basement-address {
-  font-family: Roboto;
-  font-size: 26px;
-  font-weight: 700px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  width: 145px;
-  height: 31px;
-  top: 1688px;
-  left: 215px;
-  text-decoration: none;
-}
 .basement-background {
   width: 1600px;
   height: 251px;
-  top: 2097px;
-
+  top: 1628px;
   background-color: #2f303a;
 }
 .basement-address p {
   width: 207px;
   height: 16px;
-  top: 2216px;
+  top: 1747px;
   left: 215px;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 400;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -237,11 +192,10 @@ h3 {
 .basement-address a:first-child {
   width: 231px;
   height: 16px;
-  top: 2244px;
+  top: 1775px;
   left: 215px;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 400;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -252,6 +206,8 @@ h3 {
 .basement-address a:last-child {
   width: 231px;
   height: 16px;
+  top: 1803px;
+  left: 215px;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -261,18 +217,18 @@ h3 {
   color: #ffffff99;
   text-decoration: none;
 }
-
-.basement-background {
-  background-color: #2f303a;
-}
-
 .basement-address {
   width: 231px;
   height: 72px;
-  top: 2216px;
+  top: 1628;
   left: 215px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-style: normal;
 }
-
 .basement-background span {
   width: 145px;
   height: 31px;
@@ -286,6 +242,14 @@ h3 {
   text-align: left;
 }
 
+.colection-background {
+  width: 1170px;
+  height: 1360px;
+  top: 174px;
+  left: 215px;
+  border: 1px;
+  color: #ffffff;
+}
 .colection-background h3 {
   width: 322px;
   height: 36px;
