@@ -28,6 +28,7 @@ ul {
   line-height: 36px;
   letter-spacing: 0.03em;
   text-align: left;
+  color: #212121;
 }
 
 h1 {
@@ -93,14 +94,79 @@ h3 {
   color: #757575;
 }
 .contacts {
-  width: 113px;
+  width: 231px;
   height: 16px;
-  top: 32px;
-  font-family: Roboto;
+  top: 2272px;
+  left: 215px;
+  font: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 16px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   text-align: left;
-  /* TODO: remove blue color from link */
+  color: #757575;
+}
+
+.our-team h3 {
+  /* TODO: ask for width(each one of them is diffrent) */
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.our-team p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: center;
+}
+
+.basement {
+  background: #2f303a;
+  width: 1600px;
+  height: 251px;
+  top: 2097px;
+}
+.colection-background {
+  width: 370px;
+  height: 404px;
+  top: 262px;
+  left: 215px;
+  border: 1px;
+  border: 1px solid #eeeeee;
+}
+
+.colection-background h3 {
+  width: 322px;
+  height: 36px;
+  top: 1010px;
+  left: 1039px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #212121;
+}
+
+.colection-background p {
+  width: 322px;
+  height: 30px;
+  top: 616px;
+  left: 639px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
 }
