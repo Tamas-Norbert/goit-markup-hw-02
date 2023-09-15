@@ -1,7 +1,20 @@
 ul {
   list-style-type: none;
 }
-
+.body-background-portofolio {
+  width: 1600px;
+  height: 1879px;
+  top: -3267px;
+  left: -2206px;
+  color: #FFFFFF;
+}
+.body-background-studio {
+  width: 1600px;
+  height: 2348px;
+  top: -3267px;
+  left: -3897px;
+  color: #ffffff;
+}
 .main-section {
   background-color: #2f303a;
   width: 1600px;
@@ -98,7 +111,7 @@ h3 {
   height: 16px;
   top: 2272px;
   left: 215px;
-  font: Roboto;
+  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
@@ -133,14 +146,13 @@ h3 {
   width: 1600px;
   height: 251px;
   top: 2097px;
-}
-.colection-background {
-  width: 370px;
-  height: 404px;
-  top: 262px;
-  left: 215px;
-  border: 1px;
-  border: 1px solid #eeeeee;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff99;
 }
 
 .colection-background h3 {
@@ -169,4 +181,11 @@ h3 {
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
+}
+
+.buttons-filters {
+  width: 516px;
+  height: 38px;
+  top: 174px;
+  border-radius: 0;
 }
