@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+}
+
+.nav-link current{
+    color: var(--highlight-color);
+}
+
+.button-filters{
+    width: 516px;
+    height: 38px;
+}
+
