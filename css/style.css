@@ -30,6 +30,7 @@ a:focus {
 
 .current {
   color: var(--active-link);
+  color: blue;
 }
 .main-navigation-studio:active,
 .main-navigation-studio:hover,
@@ -152,10 +153,10 @@ h3 {
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0.03em;
-  text-align: center;
   display: flex;
   color: #212121;
 }
+
 .our-team p {
   width: 147px;
   height: 19px;
@@ -166,7 +167,6 @@ h3 {
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.03em;
-  text-align: center;
   display: flex;
   color: #757575;
 }
@@ -228,6 +228,18 @@ h3 {
   letter-spacing: 0.03em;
   text-align: left;
   font-style: normal;
+}
+.header-logo {
+  width: 158px;
+  height: 70px;
+  top: 24px;
+  left: 215px;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 .basement-background span {
   width: 145px;
@@ -295,4 +307,22 @@ h3 {
 
 .buttons-filters li button {
   border: none;
+}
+
+.top-line {
+  width: 1600px;
+  height: 80px;
+  border: 1px;
+  color: #ffffff;
+  width: 42px;
+  height: 16px;
+  top: 32px;
+  left: 453px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #212121;
 }
